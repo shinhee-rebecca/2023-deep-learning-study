@@ -4,7 +4,7 @@
 
 ✔️ [ 스터디 소개 ](https://github.com/shinhee-rebecca/2023-deep-learning-study/blob/main/ETC/study-introduction.md)
 
-✔️ 진행 방식
+✔️ [ 진행 방식 ](https://github.com/shinhee-rebecca/2023-deep-learning-study/blob/main/ETC/a-way-of-proceeding.md)
 
 ✔️ 벌금 제도
 

@@ -1,6 +1,6 @@
 # 딥러닝 스터디
 
-**가볍게 IT 이슈를 트래킹하고 단단하게 딥러닝의 기초를 다지는 것을 목표로 합니다.**
+**가볍게 IT 이슈를 트래킹하고 단단하게 딥러닝의 기초를 다지는 것을 목표로 합니다.**  
 **<<밑바닥부터 시작하는 딥러닝>> 1권과 2권을 학습합니다.**
 
 ✔️ [ 스터디 소개 ](https://github.com/shinhee-rebecca/2023-deep-learning-study/blob/main/ETC/study-introduction.md)

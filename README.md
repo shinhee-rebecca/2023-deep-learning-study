@@ -16,7 +16,7 @@
 |                               | 가볍게                        | IT 이슈를                     | 트래킹해요!                                                                              |
 | ----------------------------- | ----------------------------- | ----------------------------- |-------------------------------------------------------------------------------------|
 | **1주차 (2023.06.10.토요일)** | [WWDC 2023 톺아보기 (상) - 신희](https://sunny-pallete.tistory.com/6) | [RWKV, QLoRA, 캐릭터 챗봇 서비스 - 송희](https://pinopino.tistory.com/entry/IT-Issues-RWKV-QLoRA-characterAI-%EC%84%9C%EB%B9%84%EC%8A%A4)  | [32 User Interface Elements For UI Designers - 윤석](./IT-issue/week1-IT-issue-YS.md) |
-|                               | [이슈4](https://keep-goingg.tistory.com/1)  | 이슈5  | 이슈6                                                                                 |
+|                               | [AI/Machine Learning 트랜드를 따라가는 방법 - 호](https://keep-goingg.tistory.com/1)  | 이슈5  | 이슈6                                                                                 |
 | **2주차 (2023.06.17.토요일)** | 이슈1                         | 이슈2                         | 이슈3                                                                                 |
 |                               | 이슈4                         | 이슈5                         | 이슈6                                                                                 |
 | **3주차 (2023.06.24.토요일)** | 이슈1                         | 이슈2                         | 이슈3                                                                                 |

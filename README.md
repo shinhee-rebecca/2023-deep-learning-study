@@ -17,7 +17,7 @@
 | ----------------------------- | ----------------------------- | ----------------------------- |-------------------------------------------------------------------------------------|
 | **1주차 (2023.06.10.토요일)** | [WWDC 2023 톺아보기 (상) - 신희](https://sunny-pallete.tistory.com/6) | [RWKV, QLoRA, 캐릭터 챗봇 서비스 - 송희](https://pinopino.tistory.com/entry/IT-Issues-RWKV-QLoRA-characterAI-%EC%84%9C%EB%B9%84%EC%8A%A4)  | [32 User Interface Elements For UI Designers - 윤석](./IT-issue/week1-IT-issue-YS.md) |
 |                               | [AI/Machine Learning 트랜드를 따라가는 방법 - 호](https://keep-goingg.tistory.com/1)  | [RLHF - 봉석](https://bongseok.tistory.com/68)  | [우아한 기술블로그 & Toss Slash - 진혁](./IT-issue/woowahan-toss.md)                          |
-| **2주차 (2023.06.17.토요일)** | 이슈1                         | 이슈2                         | 이슈3                                                                                 |
+| **2주차 (2023.06.17.토요일)** | [WWDC 2023 톺아보기 (중) - 신희](https://sunny-pallete.tistory.com/11) <br/> [WWDC 2023 톺아보기 (하) - 신희](https://sunny-pallete.tistory.com/12)                          | 이슈2                         | 이슈3                                                                                 |
 | **3주차 (2023.06.24.토요일)** | 이슈1                         | 이슈2                         | 이슈3                                                                                 |
 | **4주차 (2023.07.01.토요일)** | 이슈1                         | 이슈2                         | 이슈3                                                                                 |
 | **5주차 (2023.07.08.토요일)** | 이슈1                         | 이슈2                         | 이슈3                                                                                 |

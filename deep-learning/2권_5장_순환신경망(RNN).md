@@ -1,7 +1,6 @@
 # TL;DR
 
-- RNN은 Langauge Model에 적용할 수 있는 신경망 중 하나의 Architecture 이다.
-
+- 언어 모델은 단어 시퀀스를 확률로 해석한다.
 - RNN은 Langauge Model에 적용할 수 있는 신경망 중 하나의 Architecture 이다.
 - RNN은 순환하는 경로가 있고, 이를 통해 내부에 ‘은닉 상태’를 기억할 수 있다.
 - RNN은 순환 경로를 펼치면 다수의 RNN 계층이 연결된 신경망으로 해석할 수 있으며, 오차역전파법으로 학습할 수 있다. (=BPTT)

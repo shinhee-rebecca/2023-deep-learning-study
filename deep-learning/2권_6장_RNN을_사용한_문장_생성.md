@@ -88,15 +88,13 @@ print(txt)
 - Encoder
     - `나는 고양이이다.` → Encoder → Decoder → `I am a cat`
         
-        ![fig 7-6.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ec1d400-ff26-4e99-96cf-6935d6038feb/fig_7-6.png)
-        
-        ![fig 7-7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/927ce833-45d9-4f52-8c65-7c21584bcc78/fig_7-7.png)
+        ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/be0f7c16-9379-4809-8f92-5fb94bb23403)
         
     - RNN의 인코딩: 임의의 길이의 문장을 고정된 길이의 벡터로 변환한다.
 
 - Decoder
     
-    ![fig 7-8.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef14983d-7e87-4527-bdc1-7bb7b39a7c08/fig_7-8.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/52f5ed08-03eb-43e0-a5ad-6a0f670d804a)
     
     - 인코더-디코더 구조에서는 LSTM 계층이 벡터 h를 입력받는다는 특징이 있음.
 - seq2seq
@@ -109,7 +107,8 @@ print(txt)
 
 - 더하기를 할 줄 아는 모델 학습하기
     
-    ![fig 7-10.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1d40bf4-a5a5-408c-b728-2a50dba52ad9/fig_7-10.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/13fb2f3d-add3-4b4d-ab73-1d368b2a9258)
+
     
 
 ## 7.2.3. 가변 길이 시계열 데이터
@@ -117,7 +116,8 @@ print(txt)
 - 각 샘플마다 길이가 상이함. 따라서 미니배치 처리를 위해, 한 미니배치 내의 샘플들의 데이터 형상이 모두 동일하도록 해주는 ‘패딩(padding)’이 필요함.
     - 패딩: 원래의 데이터에 의미 없는 데이터를 채워 모든 데이터의 길이를 균일하게 맞추는 기법
         
-        ![fig 7-11.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67a06ae6-46a4-4012-8647-27770c312f82/fig_7-11.png)
+        ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/ec441acc-bd84-48c2-829c-d4e6ea33871c)
+
         
     - 패딩을 통해 가변 길이의 시계열 데이터를 처리할 수 있음.
         - (정확성을 위해 패딩에는 손실의 결과가 반영되지 않도록 ‘마스크’ 기능을 추가하기도 함.)
@@ -128,7 +128,8 @@ print(txt)
 
 - 문자열을 입력 받아 은닉 상태 벡터 h를 출력
     
-    ![fig 7-15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e01d5795-cb5f-4110-81ee-699367bac40f/fig_7-15.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/db56a84d-473e-4de5-9597-ac8b1dce124b)
+
     
     ```python
     class Encoder:
@@ -165,13 +166,17 @@ print(txt)
     
     ## 7.3.2. Decoder 클래스
     
-    ![fig 7-16.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/775d153a-73ee-4584-89ba-bb74b61e48d0/fig_7-16.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/c0c62875-7e27-405e-82b1-36c2b9702f5a)
+
     
-    ![fig 7-17.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f399c8e9-50b3-4f62-a8e3-17bbb7a20023/fig_7-17.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/df8649ae-edf5-4f85-bb99-2fcc2755afcc)
+
     
-    ![fig 7-18.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8499e57a-34ed-49eb-b6f9-f5a2da2094f7/fig_7-18.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/47ce8b23-34e4-4301-8f63-336a31488026)
+
     
-    ![fig 7-19.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b313a7d7-f327-4d8b-bc98-02c4e37a106f/fig_7-19.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/5b7a2ef4-db8d-4caf-9d31-78bddc306285)
+
     
     ```python
     class Decoder:
@@ -275,7 +280,8 @@ class Seq2seq(BaseModel):
 
 - 입력 데이터의 순서를 뒤집는다.
     
-    ![fig 7-23.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f17da1da-a9ce-4caa-8de2-262ac6e3930b/fig_7-23.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/698e4b06-140d-491f-bcb3-4b5fd32d1428)
+
     
     ```python
     x_train, x_test = x_train[:, ::-1], x_test[:, ::-1]
@@ -286,7 +292,8 @@ class Seq2seq(BaseModel):
 
 - 디코더의 최초 LSTM 계층뿐만 아니라 디코더의 다른 계층들도 인코더의 출력인 벡터 h를 사용하게끔 해주어서 인코더의 정보를 최대한 활용
     
-    ![fig 7-26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7855504-cd7e-4f0e-bbf0-8683a14b6798/fig_7-26.png)
+    ![image](https://github.com/shinhee-rebecca/2023-deep-learning-study/assets/42907231/c75bf8a3-2fa6-4114-aa08-8fa423270e39)
+
     
     - Affine 계층의 입력으로, h와 디코더 LSTM의 출력 벡터가 concatenate되어 들어감.
 
